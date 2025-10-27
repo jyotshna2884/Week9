@@ -39,5 +39,6 @@ except Exception as e:
     driver.execute_script("arguments[0].click();", button)
 
 time.sleep(3)
-print("✅ Test Completed Successfully!")
+print("Test Completed Successfully!")
 driver.quit()
+
